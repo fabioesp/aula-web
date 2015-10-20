@@ -1,0 +1,58 @@
+/*configuração desktop - telas com no min 480px*/
+@media screen and (min-width:480px) {
+h1{
+	font-size:34px;
+	color:#CC0;
+}
+p{
+	width:100%;
+	height:100%;
+	background-color:#C00;
+}
+body{
+	background-color:#F60;
+}}
+/*configuração smartphone - telas com no max 480px*/
+@media screen and (max-width:480px) {
+body{
+	background-color:#30F;
+}
+p{
+	width:100%;
+	height:100%;
+	background-color:#C00;
+}
+}
+/*configuração altura - APENAS para telas com 1024px
+@media screen and (height:1024px) {
+body{
+	background-color:#3FC;
+}
+p{
+	width:100%;
+	height:100%;
+	background-color:#C00;
+}
+}*/
+/*configuração orientation - APENAS formato retrato
+@media screen and (orientation:portrait) {
+body{
+	background-color:#3FC;
+}
+p{
+	width:100%;
+	height:100%;
+	background-color:#C00;
+}
+}*/
+/*configuração orientation - APENAS formato paisagem*/
+@media screen and (orientation:landscape) {
+body{
+	background-color:#FF0;
+}
+p{
+	width:100%;
+	height:100%;
+	background-color:#000;
+}
+}

@@ -1,0 +1,21 @@
+/*configuração desktop - telas com no min 480px*/
+@media screen and (min-width:481px) {
+h1{
+	font-size:34px;
+	color:#CC0;
+}
+.box_01{
+	float:left;
+	width:200px;
+	height:100%;
+	background-color:#C00;
+}
+.box_02{
+	float:left;
+	width:200px;
+	height:100%;
+	background-color:#FFF;
+}
+body{
+	background-color:#0F6;
+}}
